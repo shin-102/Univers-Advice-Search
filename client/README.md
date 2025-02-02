@@ -30,7 +30,7 @@ Univers Advice Search is a resource locator application designed to provide user
 -   Navigation back to the home page from the search results page.
 
 ## Project Structure
-
+```
 src/
 ├── components/
 │   ├── SearchBar.tsx        # Search and filter input component
@@ -50,6 +50,7 @@ README.md                   # This file
 package.json
 tsconfig.json
 ...                         # Other configuration files
+```
 
 ## Code Explanation
 
