@@ -1,50 +1,73 @@
-# React + TypeScript + Vite
+# Univers Advice Search
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Univers Advice Search is a resource locator application designed to provide users with easy access to a database of resources, such as courses, articles, videos, and PDFs. It is intended for entrepreneurs and self-development enthusiasts who are physically present in the Univers Advice workspace.  This application allows users to search and filter resources by various criteria, making it simple to find the information they need.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-   Technologies Used
+-   Features
+-   Project Structure
+-   Code Explanation
+-   Contributing ?
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+-   React
+-   TypeScript
+-   Tailwind CSS v4
+-   Framer Motion
+-   Lucide React
 
-- Configure the top-level `parserOptions` property like this:
+## Features
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+-   Search functionality with keyword matching in titles and descriptions.
+-   Filtering by file type (PDF, Article, Video) and language (English, Spanish, French).
+-   Dropdown menus for filter selection.
+-   "Load More" button for paginated results display.
+-   Smooth animations using Framer Motion.
+-   Clear and concise UI with Tailwind CSS.
+-   Consistent filter options across the application.
+-   Navigation back to the home page from the search results page.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Project Structure
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+src/
+├── components/
+│   ├── SearchBar.tsx        # Search and filter input component
+│   └── filterOptions.ts     # Centralized filter option definitions
+├── pages/
+│   ├── HomePage.tsx             # Main landing page
+│   └── SearchPage.tsx           # Search results page
+├── assets/
+│   └── data.json           # Sample resource data (replace with your actual data)
+├── App.tsx                 # Main application component
+├── main.tsx                 # ReactDOM Root/Router
+├── index.tsx                # Entry point of the application
+└── ...                     # Other files (types, utils, etc.)
+public/
+└── index.html
+README.md                   # This file
+package.json
+tsconfig.json
+...                         # Other configuration files
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Code Explanation
+
+The project consists of several interconnected components:
+
+-   **`data.json`:** This file contains the resource data. Each resource is an object with properties like `id`, `title`, `description`, `filetype`, `language`, and `thumbnail`.  It's crucial that the `id` is a string.
+
+-   **`filterOptions.ts`:** This file defines the available filter options for file type and language.  It's imported by both the `SearchBar` and `SearchPage` components to ensure consistency.
+
+-   **`HomePage.tsx`:** This is the main landing page. It displays the logo, the `SearchBar` component, and a section for featured resources.
+
+-   **`SearchBar.tsx`:** This component handles user input for search queries and filter selection. It uses `URLSearchParams` to construct the URL with the query and filter parameters and navigates to the `SearchPage` component.
+
+-   **`SearchPage.tsx`:** This component displays the search results. It reads the query and filter parameters from the URL, fetches the data from `data.json`, filters the data, and displays the results in a paginated manner using the "Load More" button.  It also handles navigation back to the home page via the logo.
+
+The application utilizes React hooks like `useState` and `useEffect` for managing state and side effects.  The filtering logic is implemented using the `filter` method on the data array.  Framer Motion is used for animations, Tailwind CSS for styling, and Lucide React for icons.
+
+## Contributing - *Optional*
+
+For now, feel free to contribute if you stumble upon this repo :3
+

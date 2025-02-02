@@ -1,0 +1,146 @@
+[
+  {
+    "id": "1",
+    "title": "Introduction to Quantum Physics",
+    "filetype": "PDF",
+    "language": "English",
+    "thumbnail": "https://via.placeholder.com/150",
+    "description": "A beginner-friendly guide to the fascinating world of quantum mechanics."
+  },
+  {
+    "id": "2",
+    "title": "Advanced Calculus Techniques",
+    "filetype": "PDF",
+    "language": "English",
+    "thumbnail": "https://via.placeholder.com/150",
+    "description": "Explore advanced techniques in calculus, including multivariable calculus and differential equations."
+  },
+  {
+    "id": "3",
+    "title": "The History of Artificial Intelligence",
+    "filetype": "Article",
+    "language": "English",
+    "thumbnail": "https://via.placeholder.com/150",
+    "description": "A comprehensive overview of the history and development of AI."
+  },
+  {
+    "id": "4",
+    "title": "Machine Learning Algorithms",
+    "filetype": "Article",
+    "language": "English",
+    "thumbnail": "https://via.placeholder.com/150",
+    "description": "An in-depth look at various machine learning algorithms and their applications."
+  },
+  {
+    "id": "5",
+    "title": "Deep Learning for Computer Vision",
+    "filetype": "Video",
+    "language": "English",
+    "thumbnail": "https://via.placeholder.com/150",
+    "description": "Learn how to use deep learning for computer vision tasks, such as image recognition and object detection."
+  },
+  {
+    "id": "6",
+    "title": "Natural Language Processing with Python",
+    "filetype": "Video",
+    "language": "English",
+    "thumbnail": "https://via.placeholder.com/150",
+    "description": "A practical guide to natural language processing using Python."
+  },
+  {
+    "id": "7",
+    "title": "Física Cuántica para Principiantes",
+    "filetype": "PDF",
+    "language": "Spanish",
+    "thumbnail": "https://via.placeholder.com/150",
+    "description": "Una guía para principiantes al fascinante mundo de la mecánica cuántica."
+  },
+  {
+    "id": "8",
+    "title": "Técnicas Avanzadas de Cálculo",
+    "filetype": "PDF",
+    "language": "Spanish",
+    "thumbnail": "https://via.placeholder.com/150",
+    "description": "Explore técnicas avanzadas en cálculo, incluyendo cálculo multivariable y ecuaciones diferenciales."
+  },
+  {
+    "id": "9",
+    "title": "La Historia de la Inteligencia Artificial",
+    "filetype": "Article",
+    "language": "Spanish",
+    "thumbnail": "https://via.placeholder.com/150",
+    "description": "Una descripción general completa de la historia y el desarrollo de la IA."
+  },
+  {
+    "id": "10",
+    "title": "Algoritmos de Aprendizaje Automático",
+    "filetype": "Article",
+    "language": "Spanish",
+    "thumbnail": "https://via.placeholder.com/150",
+    "description": "Una mirada en profundidad a varios algoritmos de aprendizaje automático y sus aplicaciones."
+  },
+  {
+    "id": "11",
+    "title": "Aprendizaje Profundo para Visión por Computadora",
+    "filetype": "Video",
+    "language": "Spanish",
+    "thumbnail": "https://via.placeholder.com/150",
+    "description": "Aprenda cómo usar el aprendizaje profundo para tareas de visión por computadora, como el reconocimiento de imágenes y la detección de objetos."
+  },
+  {
+    "id": "12",
+    "title": "Procesamiento del Lenguaje Natural con Python",
+    "filetype": "Video",
+    "language": "Spanish",
+    "thumbnail": "https://via.placeholder.com/150",
+    "description": "Una guía práctica para el procesamiento del lenguaje natural con Python."
+  },
+    {
+    "id": "13",
+    "title": "Introduction à la Physique Quantique",
+    "filetype": "PDF",
+    "language": "French",
+    "thumbnail": "https://via.placeholder.com/150",
+    "description": "Un guide pour débutants au monde fascinant de la mécanique quantique."
+  },
+  {
+    "id": "14",
+    "title": "Techniques Avancées de Calcul",
+    "filetype": "PDF",
+    "language": "French",
+    "thumbnail": "https://via.placeholder.com/150",
+    "description": "Explorez des techniques avancées en calcul, y compris le calcul multivariable et les équations différentielles."
+  },
+  {
+    "id": "15",
+    "title": "L'Histoire de l'Intelligence Artificielle",
+    "filetype": "Article",
+    "language": "French",
+    "thumbnail": "https://via.placeholder.com/150",
+    "description": "Un aperçu complet de l'histoire et du développement de l'IA."
+  },
+  {
+    "id": "16",
+    "title": "Algorithmes d'Apprentissage Automatique",
+    "filetype": "Article",
+    "language": "French",
+    "thumbnail": "https://via.placeholder.com/150",
+    "description": "Un regard en profondeur sur divers algorithmes d'apprentissage automatique et leurs applications."
+  },
+  {
+    "id": "17",
+    "title": "Apprentissage Profond pour la Vision par Ordinateur",
+    "filetype": "Video",
+    "language": "French",
+    "thumbnail": "https://via.placeholder.com/150",
+    "description": "Apprenez à utiliser l'apprentissage profond pour les tâches de vision par ordinateur, telles que la reconnaissance d'images et la détection d'objets."
+  },
+  {
+    "id": "18",
+    "title": "Traitement du Langage Naturel avec Python",
+    "filetype": "Video",
+    "language": "French",
+    "thumbnail": "https://via.placeholder.com/150",
+    "description": "Un guide pratique pour le traitement du langage naturel avec Python."
+  }
+]
