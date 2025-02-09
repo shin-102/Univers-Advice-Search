@@ -2,9 +2,13 @@ import { motion } from "framer-motion";
 import SearchBar from "../components/SearchBar";
 import Logo from '/UniversAdvice_logo.jpg'; // Direct import, no need for Avatar if just displaying image
 
+import Header from "../components/Header";
+//import AboutUS from "../components/AboutUs";
+
 export default function HomePage() {
   return (
-    <div className="flex flex-col items-center min-h-screen bg-gradient-to-b from-[#0e5ebd] to-[#0c3199] text-white p-4">
+    <div className="flex flex-col w-full items-center min-h-screen bg-gradient-to-b from-[#0e5ebd] to-[#0c3199] text-white">
+      <Header />
       {/* Logo */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}
@@ -40,6 +44,7 @@ export default function HomePage() {
           <li className="p-3 hover:bg-gray-100 transition cursor-pointer">Mastering Social Media Engagement</li>
         </ul>
       </motion.div>
+      {/* <AboutUS /> */}
     </div>
   );
 }
